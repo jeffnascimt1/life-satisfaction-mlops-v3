@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/bbb7fe887ef84b51972ecb8b63a7348b/artifacts
+end_time: 1750524896751
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bbb7fe887ef84b51972ecb8b63a7348b
+run_name: rare-dog-763
+run_uuid: bbb7fe887ef84b51972ecb8b63a7348b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750524896730
+status: 4
+tags: []
+user_id: jeff

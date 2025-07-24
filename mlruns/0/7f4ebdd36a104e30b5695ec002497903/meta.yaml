@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/7f4ebdd36a104e30b5695ec002497903/artifacts
+end_time: 1750525257139
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7f4ebdd36a104e30b5695ec002497903
+run_name: inquisitive-goat-792
+run_uuid: 7f4ebdd36a104e30b5695ec002497903
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750525257114
+status: 4
+tags: []
+user_id: jeff

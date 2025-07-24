@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/a148f1a786ee4585986c4b946b5cb0a4/artifacts
+end_time: 1750524552761
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a148f1a786ee4585986c4b946b5cb0a4
+run_name: grandiose-lamb-929
+run_uuid: a148f1a786ee4585986c4b946b5cb0a4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750524552743
+status: 4
+tags: []
+user_id: jeff

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/6e9fec4469e54043861866ab0c7dbb57/artifacts
+end_time: 1750525413117
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6e9fec4469e54043861866ab0c7dbb57
+run_name: carefree-quail-984
+run_uuid: 6e9fec4469e54043861866ab0c7dbb57
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750525413097
+status: 3
+tags: []
+user_id: jeff

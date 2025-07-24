@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/6ba33aafaf804918b87f6ff129f50aba/artifacts
+end_time: 1750524697352
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6ba33aafaf804918b87f6ff129f50aba
+run_name: classy-crab-341
+run_uuid: 6ba33aafaf804918b87f6ff129f50aba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750524697339
+status: 4
+tags: []
+user_id: jeff

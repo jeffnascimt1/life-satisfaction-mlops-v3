@@ -6,9 +6,14 @@ import joblib
 from sklearn.linear_model import LinearRegression
 import mlflow
 import mlflow.sklearn
+import shutil
+
+
+mlflow.set_tracking_uri("file://" + os.path.abspath("mlruns"))
 
 DATAPATH = "data"
 DOWNLOAD_ROOT = "https://raw.githubusercontent.com/ageron/handson-ml2/master/"
+# mlflow.set_tracking_uri("http://localhost:5000")
 
 def download_data(datapath):
     os.makedirs(datapath, exist_ok=True)
@@ -53,6 +58,11 @@ if __name__ == "__main__":
         os.makedirs("models", exist_ok=True)
         model_path = "models/life_satisfaction_model.pkl"
         joblib.dump(model, model_path)
-        mlflow.log_artifact(model_path, artifact_path="model")
+
+        run_id = mlflow.active_run().info.run_id
+        artifact_dir = os.path.join("mlruns", "0", run_id, "artifacts")
+        os.makedirs(artifact_dir, exist_ok=True)
+        shutil.copy(model_path, os.path.join(artifact_dir, "life_satisfaction_model.pkl"))
+
 
         print(f"✅ Modelo treinado com R²={score:.3f} e logado no MLflow")
